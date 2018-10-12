@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="plataformas">
+        <item>PS4</item>
+        <item>PS3</item>
+        <item>PS2</item>
+        <item>XBOX One</item>
+        <item>XBOX 360</item>
+        <item>PC</item>
+    </string-array>
+
+</resources>

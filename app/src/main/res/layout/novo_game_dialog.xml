@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtNomeGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plataforma"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtPlataforma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gênero"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapSentences" />
+
+</LinearLayout>
